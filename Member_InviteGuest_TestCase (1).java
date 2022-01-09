@@ -13,7 +13,7 @@ import com.adm.commonfuctions.Commonfunction;
 import com.adm.page_object.Member_InviteGuest_Pageobject;
 
 public class Member_InviteGuest_TestCase extends Commonfunction{
-	@Test
+	@Test(enabled=false)
 	public static void inviteGuest() throws IOException {
 		
 		Member_InviteGuest_Pageobject .guest.click();
